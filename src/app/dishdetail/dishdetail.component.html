@@ -35,9 +35,9 @@
       <mat-card-content>
         <mat-list>
           <mat-list-item *ngFor="let comment of dish.comments">
-            <span matLine> {{ comment.comment }} </span>
-            <span matLine> {{ comment.rating }} Starts </span>
-            <span matLine> -- {{ comment.author }} {{ comment.date | date }} </span>
+            <h4 matLine> {{ comment.comment }} </h4>
+            <p matLine> {{ comment.rating }} Starts </p>
+            <p matLine> -- {{ comment.author }} {{ comment.date | date }} </p>
           </mat-list-item>
         </mat-list>
       </mat-card-content>
